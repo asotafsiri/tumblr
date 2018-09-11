@@ -13,6 +13,163 @@
  *= require_tree .
  *= require_self
  */
-@import 'normalize';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import 'main';
+
+ @import 'normalize';
+ @import 'main';
+
+html,body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sidebar {
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #88D0AD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main_content {
+  margin-left: 200px;
+  #header {
+    padding: 1.2em 3.5em;
+    border-bottom: 1PX solid #b8e2fe;
+    background: #529FCD;
+    color: #FFF;
+    P {
+        display: inline;
+    }
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+    .buttons {
+      float: right;
+      margin-top: -6px;
+      .button {
+          font-size: .8em;
+          margin-left: .5em
+      }
+    }
+  }
+}
+
+.post_wrapper {
+  padding: 1.9em;
+  border-bottom: 1px solid #d6dce0;
+  .title {
+    margin: 2px;
+    a {
+        font-weight: 500;
+        text-decoration: none;
+        color: #529FCD;
+        font-size: 1.2em;
+        &:hover {
+            color: #22487b;
+        }
+    }
+  }
+ }
+
+  .links {
+      margin: 2em 0;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 70%;
+    border: 1px solid #d6dce0;
+    border-radius: .35em;
+    margin-top: 20px;
+    padding: .5em 1em;
+    line-height: 1.75;
+  }
+
+  input[type="text"] {
+    height: 35px;
+  }
+
+  textarea {
+    min-height: 180p;
+  }
+
+  input[type="submit"] {
+    outline: none;
+    background: transparent;
+    border: 1px solid #d6dce0;
+    padding: -5em 1.5em;
+    font-size: 1.1em;
+    border-radius: 1.5em;
+    margin-left: .5em;
+    &:hover {
+      border: 1px solid #33acb7;
+      color: #33acb7;
+    }
+  }
